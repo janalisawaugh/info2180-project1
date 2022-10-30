@@ -34,6 +34,7 @@ ul li {
     grid-row:2;
     display: flex;
     flex-direction:row;
+    padding:10px;
     
 }
 .overview-hero-image img{
@@ -55,7 +56,8 @@ ul li {
 .cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap:10px;    
+    column-gap:10px;  
+    padding:10px;  
 }
 .card {
     display: grid;
@@ -124,8 +126,37 @@ article .article-body {
     grid-column:2;
 }
 .newsletter {
-    grid-row:6;
+    grid-row:6;   
+
 }
+.newsletter .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;    
+}
+.newsletter .container h3{
+    grid-row:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newsletter .container p{
+    grid-row:2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter .container form {
+    grid-row:3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 footer {
     grid-row:7;
 
