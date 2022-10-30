@@ -109,6 +109,20 @@ ul li {
     grid-row:5;
 
 }
+article {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 10px;
+    padding: 20px;
+}
+article img {
+    grid-column: 1;
+    max-width:250px;    
+    border-radius: 50%;
+}
+article .article-body {
+    grid-column:2;
+}
 .newsletter {
     grid-row:6;
 }
