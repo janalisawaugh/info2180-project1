@@ -75,27 +75,36 @@ ul li {
 }
 .card:nth-child(1) {
     grid-column:1;
-    /* grid-row:2; */
+    
 }
 .card:nth-child(2) {
-    grid-column:2;
-    /* grid-row:2; */
+    grid-column:2;    
 }
 .card:nth-child(3) {
-    grid-column:3;
-    /* grid-row:2; */
+    grid-column:3;    
 }
 
 
-/*
-ai pic - 363 x 182
-fitness pic - 323 x 228 or 258 x 182
-healthy pic - 425 x 298 or 284 x 195
-*/
+
 .testing {
-    grid-row:4;
+    grid-row:4;  
+}
+.testing .container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 30px;
+    padding: 10px;
+}
+.testing-description {
+    grid-column: 1;
+}
+.cta {
+    grid-column: 2;
+    padding:50px;
 
 }
+
+
 .stories {
     grid-row:5;
 
